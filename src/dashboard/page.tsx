@@ -138,7 +138,7 @@ export default function Dashboard() {
                   type="datetime-local"
                   value={newTask.due_date}
                   onChange={(e) => setNewTask({...newTask, due_date: e.target.value})}
-                  className="w-full p-2 border rounded"
+                  className="w-full p-2 border text-black rounded"
                   required
                 />
               </div>
